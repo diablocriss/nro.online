@@ -315,10 +315,10 @@
                   <a href="/index.php" class="btn btn-navbar text-white col-4" style="padding: 0.5rem 1rem; text-align: center; box-shadow: 0 0 7px #bbf9f1; border-color: #f48124; text-decoration: none; background-color: #000; color: #fff; font-size: 0.9rem; white-space: nowrap;" onmouseover="this.style.backgroundColor='#bbf9f1'" onmouseout="this.style.backgroundColor='#000'">
                       <i class="fa fa-home" style="display: inline-block; margin-right: 0.5rem;"></i> Trang chủ
                   </a>
-                  <a href="https://ngocrongwind.online/pages/diendan.php" class="btn btn-navbar text-white col-4" style="padding: 0.5rem 1rem; text-align: center; box-shadow: 0 0 7px #bbf9f1; border-color: #f48124; text-decoration: none; background-color: #000; color: #fff; font-size: 0.9rem; white-space: nowrap;" onmouseover="this.style.backgroundColor='#bbf9f1'" onmouseout="this.style.backgroundColor='#000'">
+                  <a href="../pages/diendan.php" class="btn btn-navbar text-white col-4" style="padding: 0.5rem 1rem; text-align: center; box-shadow: 0 0 7px #bbf9f1; border-color: #f48124; text-decoration: none; background-color: #000; color: #fff; font-size: 0.9rem; white-space: nowrap;" onmouseover="this.style.backgroundColor='#bbf9f1'" onmouseout="this.style.backgroundColor='#000'">
                       <i class="fa fa-group" style="display: inline-block; margin-right: 0.5rem;"></i> Diễn Đàn
                   </a>
-                  <a href="https://zalo.me/g/lznxfc137" target="_blank" class="btn btn-navbar text-white col-4" style="padding: 0.5rem 1rem; box-shadow: 0 0 7px #bbf9f1; border-color: #f48124; text-align: center; text-decoration: none; background-color: #000; color: #fff; font-size: 0.9rem; white-space: nowrap;" onmouseover="this.style.backgroundColor='#bbf9f1'" onmouseout="this.style.backgroundColor='#000'">
+                  <a href="https://zalo.me/g/htfxjm530" target="_blank" class="btn btn-navbar text-white col-4" style="padding: 0.5rem 1rem; box-shadow: 0 0 7px #bbf9f1; border-color: #f48124; text-align: center; text-decoration: none; background-color: #000; color: #fff; font-size: 0.9rem; white-space: nowrap;" onmouseover="this.style.backgroundColor='#bbf9f1'" onmouseout="this.style.backgroundColor='#000'">
                       <i class="fa fa-comments" style="display: inline-block; margin-right: 0.5rem;"></i> Group Zalo
                   </a>
                   
@@ -329,7 +329,7 @@
           <div class="text-center mt-2">
             <a href="https://www.mediafire.com/file/0mu6bnutmiw7z46/NroWind.jar/file" target="_blank" class="btn btn-download text-white" style="border-radius: 10px; width: 100px;">
                 <i class="fa fa-download"></i> JAR</a>
-            <a href="https://www.mediafire.com/file/qegf716xcsdx8fl/NgocRongWind.zip/file" target="_blank" class="btn btn-download text-white" style="border-radius: 10px; width: 100px;">
+            <a href="https://www.mediafire.com/file/x9obgwmjp04fb8u/MOD_KOI_230.rar/file" target="_blank" class="btn btn-download text-white" style="border-radius: 10px; width: 100px;">
                 <i class="fa fa-windows"></i> PC</a>
 			<a href="https://www.mediafire.com/file/bx3d37rtgltnwaz/NgocRongWind.apk/file" target="_blank" class="btn btn-download text-white" style="border-radius: 10px; width: 100px;">
                 <i class="fa fa-android"></i> APK</a>
@@ -365,12 +365,11 @@
           
           <?php if ($_SESSION['logger']['username']) { ?> 
           <a href="../pages/napthe.php" class="btn btn-action m-1 text-black" style="border-radius: 10px;">
-            <i class="fa fa-credit-card"></i> Nạp </a>
+            <i class="fa fa-credit-card"></i> Nạp thẻ cào </a>
+          <a href="../pages/qrmomo.php" class="btn btn-action m-1 text-black" style="border-radius: 10px;">
+            <i class="fa fa-credit-card"></i> Nạp MOMO </a>
           <a href="/pages/doimatkhau.php" class="btn btn-action m-1 text-black" style="border-radius: 10px;">
             <i class="fa fa-address-card"></i> Đổi Mật Khẩu </a>
-			
-          <a href="/pages/kichhoat.php" class="btn btn-action m-1 text-black" style="border-radius: 10px;">
-            <i class="fa fa-check-circle-o"></i> Kích Hoạt </a>
           <a href="" class="btn btn-action m-1 text-black" style="border-radius: 10px;">
             <i class="fa fa-group"></i> Group Zalo</a>
           <a href="/pages/dangxuat.php" class="btn btn-action m-1 text-black" style="border-radius: 10px;">

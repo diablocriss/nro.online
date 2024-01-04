@@ -7,6 +7,5 @@
 </head>
 <body>
     <p><img src="../assets/images/game/f74d15724924e27abb35.jpg" alt="Deo len roi m" ></p>
-    <p>Quét theo cú pháp: Hovaten + tai_khoan + so_tien</p>
 </body>
 </html>

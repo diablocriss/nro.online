@@ -286,7 +286,7 @@ if ($cmtResult->num_rows > 0) {
 <tbody>
 <tr>
 <td width="60px;" style="vertical-align: top;">
-    <div class="text-center" style="margin-left: -10px; heigh:35px;">
+    <div class="text-center" style="margin-left: -10px; height:35px;">
     <?php if(!$row_gender['gender']){ ?>
     <img src="../public/images/icon/3.png" width="50" /><br>
     <?php } else { ?>
