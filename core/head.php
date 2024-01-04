@@ -321,9 +321,7 @@
                   <a href="https://zalo.me/g/lznxfc137" target="_blank" class="btn btn-navbar text-white col-4" style="padding: 0.5rem 1rem; box-shadow: 0 0 7px #bbf9f1; border-color: #f48124; text-align: center; text-decoration: none; background-color: #000; color: #fff; font-size: 0.9rem; white-space: nowrap;" onmouseover="this.style.backgroundColor='#bbf9f1'" onmouseout="this.style.backgroundColor='#000'">
                       <i class="fa fa-comments" style="display: inline-block; margin-right: 0.5rem;"></i> Group Zalo
                   </a>
-                  <a href="/pages/qrmomo.php" target="_blank" class="btn btn-navbar text-white col-4" style="padding: 0.5rem 1rem; box-shadow: 0 0 7px #bbf9f1; border-color: #f48124; text-align: center; text-decoration: none; background-color: #000; color: #fff; font-size: 0.9rem; white-space: nowrap;" onmouseover="this.style.backgroundColor='#bbf9f1'" onmouseout="this.style.backgroundColor='#000'">
-                      <i class="fa fa-comments" style="display: inline-block; margin-right: 0.5rem;"></i> Nạp thẻ
-                  </a>
+                  
                   
               </div>
                     
@@ -366,7 +364,7 @@
           
           
           <?php if ($_SESSION['logger']['username']) { ?> 
-          <a href="/napthe.php" class="btn btn-action m-1 text-black" style="border-radius: 10px;">
+          <a href="../pages/napthe.php" class="btn btn-action m-1 text-black" style="border-radius: 10px;">
             <i class="fa fa-credit-card"></i> Nạp </a>
           <a href="/pages/doimatkhau.php" class="btn btn-action m-1 text-black" style="border-radius: 10px;">
             <i class="fa fa-address-card"></i> Đổi Mật Khẩu </a>
